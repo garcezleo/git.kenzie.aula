@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <br>
+        <label for="nome">Nome</label>
+        <br>
+        <input type="text" id="nome" placeholder="Digite seu nome aqui..." name="nome" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Digite seu email aqui..." name="email" required>
+        <br>
+        <br>
+        <label for="descricao">Descrição</label>
+        <br>
+        <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Fale mais sobre você aqui..." required></textarea>
+        <br>
+        <br>
+        <label for="modulo">Módulo</label>
+        <br>
+        <Select name="modulo" id="modulo" required>
+            <option value="">
+                Escolher módulo
+             </option>
+             <option value="m2" >
+                M2
+            </option>
+             <option value="m3">
+                M3
+            </option>
+             <option value="m4">
+                M4
+            </option>
+        </Select>
+        <br>
+        <br>
+        <label for="senha">Senha</label>
+        <br>
+        <input type="password" id="senha" placeholder="Digite sua senha aqui..." name="senha" required>
+        <br>
+        <br>
+        <label for="confirmesenha">Confirme sua senha</label>
+        <br>
+        <input type="password" id="confirmesenha" placeholder="Confirme sua senha aqui..." name="confirmesenha" required>
+        <br>
+        <br>
+            <h6>Deseja receber novidades em seu email?</h6>
+            <label for="sim">Sim</label>
+            <input type="radio" id="sim" required name="recebernovidades" value="Sim">
+            <label for="nao">Não</label>
+            <input type="radio" id="nao" required name="recebernovidades" value="Nao">
+        <br>
+        <br>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
